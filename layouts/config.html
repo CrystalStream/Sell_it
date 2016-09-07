@@ -1,0 +1,165 @@
+<div class="row">
+	<div class="col-xs-12 col-md-6">
+        <div class="alert alert-success black">
+            <h4 class="config-title">
+               Agregar categorias
+            </h4>
+            <div>
+                <form action="">
+                   <div class="input-group">
+                       <label for="">Nombre de la categoria</label>
+                       <input type="text" class="form-control" placeholder="Nombre..">
+                   </div>
+                   <div class="input-group mt">
+                       <input type="submit" class="btn btn-primary" value="Registrar">
+                   </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="hidden-xs col-md-6 black">
+        <div class="table-responsive text-center">
+            <table class="table table-hover table-config">
+                <thead >
+                    <tr>
+                        <th class="text-center">#</th>
+                        <th class="text-center">Categoria</th>
+                        <th class="text-center">Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Zapatos</td>
+                        <td>
+                            <button class="btn btn-warning btn-sm mr">
+                                <i class="fa fa-pencil"></i>
+                            </button>
+                            <button class="btn btn-danger btn-sm">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Zapatos</td>
+                        <td>
+                            <button class="btn btn-warning btn-sm mr">
+                                <i class="fa fa-pencil"></i>
+                            </button>
+                            <button class="btn btn-danger btn-sm">
+                                <i class="fa fa-times"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-12">
+        <div class="alert alert-info black">
+            <h4 class="config-title">Agregar producto</h4>
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <figure><img src="img/shoes.jpg" alt="subir" class="img-responsive" ></figure>
+                </div>
+                <div class="col-xs-12 col-md-8">
+                    <form action="">
+                        <div class="col-xs-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Nombre:</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Precio:</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-usd"></i>
+                                    </div>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Imagen:</label>
+                                <input type="file">
+                                 <p class="help-block black">Sube la imagen que quieres que aparesca como identificador del producto</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="form-group">
+                                <label for="">Categoria:</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-sitemap"></i>
+                                    </div>
+                                    <select name="" id="category-chooser" placeholder="Categoria" class="form-control">
+                                        <option value="0">Categoria</option>
+                                        <option value="1">Zapatos</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <div class="form-group">
+                                <label for="" class="col-xs-12">Genero:</label>
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-success btn-genre">
+                                        <input type="radio" name="genre" id="male" autocomplete="off"> Masculino
+                                    </label>
+                                    <label class="btn btn-success btn-genre">
+                                        <input type="radio" name="genre" id="female" autocomplete="off"> Femenino
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-12 hidden" id="shoes-pick">
+                            <div class="form-group">
+                                <label for="" class="col-xs-12">Numeros:</label>
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-danger btn-numbers">
+                                        <input type="checkbox" name="numbers[]genre" id="male" autocomplete="on"> 2
+                                    </label>
+                                    <label class="btn btn-danger btn-numbers">
+                                        <input type="checkbox" name="numbers[]" id="female" autocomplete="off"> 3
+                                    </label>
+                                    <label class="btn btn-danger btn-numbers">
+                                        <input type="checkbox" name="numbers[]" id="female" autocomplete="off"> 4
+                                    </label>
+                                    <label class="btn btn-danger btn-numbers">
+                                        <input type="checkbox" name="numbers[]" id="female" autocomplete="off"> 5
+                                    </label>
+                                    <label class="btn btn-danger btn-numbers">
+                                        <input type="checkbox" name="numbers[]" id="female" autocomplete="off"> 6
+                                    </label>
+                                    <label class="btn btn-danger btn-numbers">
+                                        <input type="checkbox" name="numbers[]" id="female" autocomplete="off"> 7
+                                    </label>
+                                    <label class="btn btn-danger btn-numbers">
+                                        <input type="checkbox" name="numbers[]" id="female" autocomplete="off"> 8
+                                    </label>
+                                    <label class="btn btn-danger btn-numbers">
+                                        <input type="checkbox" name="numbers[]" id="female" autocomplete="off"> 9
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="form-group">
+                                <input type="submit" id="save-btn" class="btn btn-primary btn-md pull-right" value="Agregar producto">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>                            
+        </div>
+    </div>
+</div>
