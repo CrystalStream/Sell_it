@@ -20,6 +20,10 @@
 /***************/
 .sidebar {
   margin-bottom: 0 !important;
+  z-index: 1000 !important;
+}
+.modal-dialog {
+  z-index: 8000 !important;
 }
 .dropdown-menu li a:hover {
   color: #000;
@@ -90,6 +94,12 @@
 }
 .btn-numbers {
   margin-left: 5px !important;
+}
+.box-text {
+  margin-top: 5px;
+  font-size: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px dotted #a0a0a0;
 }
 /* MEDIA QUERYS */
 @media (max-width: 770px) {
