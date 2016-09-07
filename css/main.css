@@ -2,6 +2,9 @@
 .mt {
   margin-top: 2em;
 }
+.mt- {
+  margin-top: 0.5em;
+}
 .mr {
   margin-right: 1em;
 }
@@ -16,6 +19,16 @@
 }
 .black {
   color: #000;
+}
+.h100 {
+  height: 85vh;
+}
+.h50 {
+  height: 80%;
+}
+.scroll {
+  overflow: auto;
+  background: #4e5d6c;
 }
 /***************/
 .sidebar {
@@ -100,6 +113,32 @@
   font-size: 16px;
   padding-bottom: 8px;
   border-bottom: 1px dotted #a0a0a0;
+}
+.panel-sell {
+  background: #6df5d0;
+  padding: 10px 5px;
+  width: 90%;
+  margin-left: 5%;
+  overflow: hidden;
+}
+.item-panel {
+  border-top: 1px solid #d7d7d7;
+}
+.item-panel:first-child {
+  border-top: none;
+}
+.total-panel {
+  height: 19%;
+  background: #4e5d6c;
+}
+.amount-total {
+  margin-right: 10%;
+  margin-top: 1.5em;
+  font-size: 25px;
+}
+.amount-total-red {
+  color: #fd5050;
+  margin-left: 2em;
 }
 /* MEDIA QUERYS */
 @media (max-width: 770px) {
